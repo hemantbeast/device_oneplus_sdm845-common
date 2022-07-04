@@ -1,3 +1,4 @@
+allow system_app sysfs_audio_gain:file rw_file_perms;
 typeattribute system_app system_writes_vendor_properties_violators;
 
 allow system_app sysfs_vibrator:file rw_file_perms;
