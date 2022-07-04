@@ -1,2 +1,5 @@
 allow init op1_file:dir mounton;
 allow init op2_file:dir mounton;
+allow init proc_touchpanel:file { open read setattr };
+allow init sysfs_audio_gain:file { open read setattr };
+allow init sysfs_inpocket:file {  open read setattr };
