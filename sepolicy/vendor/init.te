@@ -4,3 +4,4 @@ allow init proc_touchpanel:file { open read setattr };
 allow init sysfs_audio_gain:file { open read setattr };
 allow init sysfs_inpocket:file {  open read setattr };
 allow init sysfs_dm:file { setattr };
+allow init socket_device:sock_file { unlink setattr create };
