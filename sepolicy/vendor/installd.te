@@ -1,0 +1,1 @@
+allow installd system_server:process getattr;
