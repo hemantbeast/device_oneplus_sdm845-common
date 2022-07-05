@@ -192,6 +192,7 @@ on boot
     chown system system /sys/devices/soc/soc:fpc_fpc1020/key_disable
 
     # Fingerprint
+    chown system system /sys/devices/platform/soc/soc:goodix_fp/proximity_state
     chmod 0660 /sys/devices/platform/soc/soc:goodix_fp/proximity_state
 
     # Pocket judge sysfs permissions
