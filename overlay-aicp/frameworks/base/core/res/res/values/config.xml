@@ -44,4 +44,11 @@
          to communicate pocket state to the pocket judge kernel driver.
          You will need a kernel commit for it -->
     <string name="config_pocketBridgeSysfsInpocket">/sys/kernel/pocket_judge/inpocket</string>
+
+    <!-- List supported color modes. -->
+    <integer-array name="config_availableColorModes">
+        <item>0</item> <!-- natural -->
+        <item>1</item> <!-- boosted -->
+        <item>2</item> <!-- saturated -->
+    </integer-array>
 </resources>
