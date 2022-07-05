@@ -105,6 +105,9 @@ on property:vendor.usb.controller=*
    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display@18/dynamic_dsi_clock
    chown radio radio /sys/devices/platform/soc/soc:qcom,dsi-display@18/dynamic_dsi_clock
 
+   chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display@21/dynamic_dsi_clock
+   chown radio radio /sys/devices/platform/soc/soc:qcom,dsi-display@21/dynamic_dsi_clock
+
    chmod 0660 /sys/class/drm/card0-DSI-1/aod_disable
    chown system system /sys/class/drm/card0-DSI-1/aod_disable
 
