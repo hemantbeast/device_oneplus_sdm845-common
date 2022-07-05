@@ -51,4 +51,7 @@
         <item>1</item> <!-- boosted -->
         <item>2</item> <!-- saturated -->
     </integer-array>
+
+    <!-- Enable system navigation keys. -->
+    <bool name="config_supportSystemNavigationKeys">true</bool>
 </resources>
