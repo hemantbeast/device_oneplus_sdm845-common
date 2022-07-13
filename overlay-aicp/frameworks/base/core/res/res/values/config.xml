@@ -69,4 +69,7 @@
          Refer to power.h for details.
     -->
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+
+    <!-- Battery Health -->
+    <bool name="config_supportBatteryHealth">true</bool>
 </resources>
