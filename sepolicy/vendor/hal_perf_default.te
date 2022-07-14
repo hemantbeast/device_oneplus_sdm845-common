@@ -1,1 +1,14 @@
 allow hal_perf_default proc_meminfo:file r_file_perms;
+
+dontaudit hal_perf_default self:capability { dac_override dac_read_search };
+allow hal_perf_default {
+init
+kernel
+}:dir { read search open };
+
+allow hal_perf_default {
+init
+kernel
+}:file { getattr open read };
+
+allow hal_perf_default sysfs_thermal:file w_file_perms;
