@@ -20,4 +20,12 @@ allow system_app sysfs_device_info:file r_file_perms;
 allow system_app sysfs_fastcharge:dir search;
 allow system_app sysfs_fastcharge:file { rw_file_perms };
 
+r_dir_file(system_app, sysfs_zram)
+
+allow system_app proc_vmallocinfo:file getattr;
+allow system_app proc_vmallocinfo:file { read open };
+
+allow system_app proc_pagetypeinfo:file getattr;
+allow system_app proc_pagetypeinfo:file { read open };
+
 set_prop(system_app, vendor_nfc_prop)
