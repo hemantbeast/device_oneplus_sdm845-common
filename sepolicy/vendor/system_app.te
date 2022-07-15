@@ -16,4 +16,8 @@ allow system_app sysfs_battery_supply:file { r_file_perms };
 # Device info
 allow system_app sysfs_device_info:file r_file_perms;
 
+# USB Fastcharge
+allow system_app sysfs_fastcharge:dir search;
+allow system_app sysfs_fastcharge:file { rw_file_perms };
+
 set_prop(system_app, vendor_nfc_prop)
