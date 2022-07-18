@@ -28,6 +28,9 @@
     <!-- Whether key handler sends intent when changing slider position -->
     <string name="config_alertSliderIntent">com.aicp.device.UPDATE_SLIDER_POSITION</string>
 
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
+
     <!-- Names of the key handler class -->
     <string name="config_deviceKeyHandlerClass" translatable="false">com.aicp.device.KeyHandler</string>
 
