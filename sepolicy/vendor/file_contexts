@@ -66,3 +66,6 @@
 
 # USB Fastcharge
 /sys/kernel/fast_charge/force_fast_charge      u:object_r:sysfs_fastcharge:s0
+
+# tombstones
+/data/vendor/tombstones/rfs(/.*)?              u:object_r:rfs_tombstone_data_file:s0
